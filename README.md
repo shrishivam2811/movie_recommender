@@ -20,3 +20,18 @@ You can download both datasets from the official source:
 * **Text Vectorization**: Converts movie tags (genres, keywords, cast, director) into numerical vectors using `CountVectorizer`.
 * **Similarity Calculation**: Computes cosine similarity between movie vectors to find similar movies.
 * **Recommendation Function**: Provides a function to recommend top similar movies based on a given movie title.
+
+## Dependencies
+
+The project relies on the following Python libraries:
+
+* `numpy`
+* `pandas`
+* `scikit-learn` (for `CountVectorizer` and `cosine_similarity`)
+* `nltk` (for `PorterStemmer`)
+* `ast`
+
+You can install these dependencies using pip:
+
+```bash
+pip install numpy pandas scikit-learn nltk
